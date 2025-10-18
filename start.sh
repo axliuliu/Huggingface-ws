@@ -1,7 +1,7 @@
 #!/usr/bin/bash
-export NEZHA_SERVER="xxx.xxxx.com"
-export NEZHA_PORT="5555"  #当端口设置为443时，自动开启TLS,无需设置
-export NEZHA_KEY="d0hJ9XrXSb1abcdefg"
+export NEZHA_SERVER="a.holoy.dpdns.org:36958"
+export NEZHA_PORT="36958"  #当端口设置为443时，自动开启TLS,无需设置
+export NEZHA_KEY="NwxKJwM9UKRCX5TBPaBm0IrjNCSyflif"
 
 chmod +x server
 if [ "$NEZHA_PORT" = "443" ]; then
