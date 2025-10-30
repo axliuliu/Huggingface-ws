@@ -40,4 +40,4 @@ jobs:
           push: true
           # tags: 指定镜像的地址和标签。这是您想要的“地址”
           # github.repository_owner 是您的 GitHub 用户名或组织名
-          tags: ghcr.io/${{ github.repository_owner }}/my-image-name:latest
+          tags: ghcr.io/${{ github.repository_owner }}/hugg:latest
